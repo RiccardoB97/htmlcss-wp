@@ -65,14 +65,6 @@ nav{
     border-radius: 15px;
     position: relative;
 }
-.gray_layer {
-    background-color: rgb(138 138 133 / 40%);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-}
 
 .banner_text{
     padding: 15px;
@@ -90,9 +82,29 @@ nav{
 /* /Site Banner */
 
 
+/* Gray overlays */
+.gray_layer {
+    height: 100%;
+}
+
+.small_gray_layer{
+    height: 190px;
+}
+
+.gray_layer, .small_gray_layer{
+    background-color: rgb(138 138 133 / 40%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* /Gray overlays */
+
+
 /* Leadership section */
 
-.main_title{
+.main_title, #site_footer{
     margin: 30px 0;
 }
 .main_title h4{
@@ -105,15 +117,7 @@ nav{
 .left_column, .right_column{
     width: 20%;
     float: left;
-}
-
-.small_gray_layer{
-    background-color: rgb(138 138 133 / 40%);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 190px;
-    border-radius: 15px;
+    color: gray;
 }
 
 .left_column h4, .right_column h4, .central_column h4{
@@ -122,20 +126,21 @@ nav{
     color: black;
 }
 
-/* Left column */
-.left_column{
-    width: 20%;
-    padding-right: 10px;
-    color: gray;
-}
-
-.left_column_img{
-    background-image: url(../img/img-1.jpg);
+.left_column_img, .central_column_img, .right_column_img{
     background-repeat: no-repeat;
     background-size: cover;
     height: 190px; 
     background-position: center; 
     border-radius: 15px;
+}
+
+/* Left column */
+.left_column{
+    padding-right: 10px;
+}
+
+.left_column_img{
+    background-image: url(../img/img-1.jpg);
 }
 /* /Left column */
 
@@ -151,11 +156,6 @@ nav{
 
 .central_column_img{
     background-image: url(../img/banner-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 190px; 
-    background-position: center; 
-    border-radius: 15px;
 }
 /* /Central column */
 
@@ -163,18 +163,11 @@ nav{
 /* Right column */
 
 .right_column{
-    width: 20%;
     padding-left: 10px;
-    color: gray;
 }
 
 .right_column_img{
     background-image: url(../img/img-3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 190px; 
-    background-position: center; 
-    border-radius: 15px;
 }
 /* /Right column */
 
@@ -185,8 +178,6 @@ nav{
     text-align: center;
     color: black;
     font-weight: 100;
-    font-size: 12px;
-    margin-top: 20px;
 }
 
 .heart{
