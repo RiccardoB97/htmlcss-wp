@@ -181,7 +181,14 @@ nav{
 
 /* Site footer */
 #site_footer{
-    height: 80px;
-    background-color: red;
     width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.heart{
+    color: red;
 }
