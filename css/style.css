@@ -16,6 +16,8 @@ body{
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* /Common classes */
+
 
 /* Site header*/
 #site_header{
@@ -46,6 +48,8 @@ nav{
     font-size: 12px;
     font-weight: 100;
 }
+/* /Site header*/
+
 
 /* Site Banner */
 .banner_img{
@@ -83,17 +87,20 @@ nav{
     font-size: 10px;
 }
 
+/* /Site Banner */
 
 
-
-
-
-
+/* Leadership section */
 
 .main_title{
-    height: 100px;
-    background-color: yellowgreen;
+    margin: 30px 0;
 }
+.main_title h4{
+    font-weight: 200;
+    color: gray;
+}
+/* /Leadership section */
+
 
 .left_column, .right_column{
     width: 20%;
